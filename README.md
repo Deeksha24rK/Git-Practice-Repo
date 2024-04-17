@@ -98,6 +98,8 @@ git  branch -d [branch-name]
 
 Note - You can not delete branch if you are on the same branch. First switch to some other branch, then try deleting.
 
+## Undoing in Git
+
 ## Terms
 
 ```
