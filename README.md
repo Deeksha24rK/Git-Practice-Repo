@@ -37,6 +37,12 @@ git commit -m "Add the commit message here"
 git push origin main
 ```
 
+6. Pull the changes to your remote repository using the pull command:
+
+```
+git pull
+```
+
 Additionally, `git status` shows the state of the working directory, staging area, and the history information.
 
 ## Git Branch Commands
@@ -77,21 +83,27 @@ git merge [branch-name]
 git log
 ```
 
+6. Show all commits in the current branch’s history in one line.
+
+```
+git log --oneline
+```
+
 Enter q to exit
 
-6. Create and checkout to newly created branch.
+7. Create and checkout to newly created branch.
 
 ```
 git checkout -b [new_branch]
 ```
 
-7. Rename a Branch
+8. Rename a Branch
 
 ```
 git branch -m old-branch new-branch
 ```
 
-8. Delete a Branch
+9. Delete a Branch
 
 ```
 git  branch -d [branch-name]
@@ -164,5 +176,3 @@ PR - Pull request - Request to have your code to be pulled into another branch.
 `status` : Check to see which files are being tracked or need to be commited.
 
 `init` : Use this command inside of your project to turn it into a Git repository and start using Git with that codebase.
-
-TEST
