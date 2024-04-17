@@ -1,6 +1,6 @@
-# Getting started with Git and Github
+## Getting started with Git and Github
 
-## Steps to clone repository from Github (Remote) and upload the changes to your own repository.
+### Steps to clone repository from Github (Remote) and upload the changes to your own repository.
 
 1. Create a Repository in GitHub: https://github.com/Deeksha24rK
 
@@ -19,7 +19,7 @@ git clone https://github.com/username/repository_name.git
 git add .
 ```
 
-or
+    or
 
 ```
 git add <filename>
@@ -39,6 +39,59 @@ git push origin main
 
 Additionally, `git status` shows the state of the working directory, staging area, and the history information.
 
+## Git Branch Commands
+
+    Default Branch - **Main**
+
+### BRANCH & MERGE
+
+    Isolating work in branches, changing context, and integrating changes.
+
+1. List your branches. A `*` will appear next to the currently active branch.
+
+   ```
+   git branch
+   ```
+
+2. Create a new branch at the current commit:
+
+   ```
+   git branch [branch-name]
+   ```
+
+3. Switch to another branch and check it out into your working directory:
+
+   ```
+   git checkout [branch-name]
+   ```
+
+4. Merge the specified branch’s history into the current one.
+
+   ```
+   git merge [branch-name]
+   ```
+
+5. Show all commits in the current branch’s history.
+   ```
+   git log
+   ```
+6. Create and checkout to newly created branch.
+
+   ```
+   git checkout -b [new_branch]
+   ```
+
+7. Rename a Branch
+
+   ```
+   git branch -m old-branch new-branch
+   ```
+
+8. Delete a Branch
+   ```
+   git  branch -d [branch-name]
+   ```
+
 ## Terms
 
 ```
@@ -55,6 +108,10 @@ cd - change directory
 Repository - Project , or the folder / place where your project is kept
 
 Github - Website to host your repositories online
+
+Working Tree -
+
+Branch -
 ```
 
 ## Git Terms
