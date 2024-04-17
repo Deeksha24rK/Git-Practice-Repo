@@ -4,7 +4,7 @@
 
 1. Create a Repository in GitHub: https://github.com/repository_name
 
-   _Click on profile icon (top right) and select `Your repositories`.
+   _Click on profile icon (top right) and select `Your repositories`.\
    Click on the `New` button , and create a repository. Give it a name, add description if you want._
 
 2. Clone the repository to your local machine using command prompt or terminal:
@@ -119,7 +119,7 @@ git reset HEAD`1
 git reset [commitId]
 ```
 
-4.Undo from a particular commit , here changes are completly removed.
+4. Undo from a particular commit , here changes are completly removed.
 
 ```
 git reset --hard [commitId]
@@ -164,3 +164,5 @@ PR - Pull request - Request to have your code to be pulled into another branch.
 `status` : Check to see which files are being tracked or need to be commited.
 
 `init` : Use this command inside of your project to turn it into a Git repository and start using Git with that codebase.
+
+TEST
