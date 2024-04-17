@@ -4,7 +4,8 @@
 
 1. Create a Repository in GitHub: https://github.com/repository_name
 
-   _Click on profile icon (top right) and select `Your repositories`\ Click on the `New` button , and create a repository. Give it a name, add description if you want._
+   _Click on profile icon (top right) and select `Your repositories`.
+   Click on the `New` button , and create a repository. Give it a name, add description if you want._
 
 2. Clone the repository to your local machine using command prompt or terminal:
 
@@ -99,6 +100,30 @@ git  branch -d [branch-name]
 Note - You can not delete branch if you are on the same branch. First switch to some other branch, then try deleting.
 
 ## Undoing in Git
+
+1. Undo staged changes , this command unstages the changes.
+
+```
+git reset
+```
+
+2. Undo commited changes , this command uncommits and unstages the changes.
+
+```
+git reset HEAD`1
+```
+
+3. Undo from a particular commit , here changes are unstaged.
+
+```
+git reset [commitId]
+```
+
+4.Undo from a particular commit , here changes are completly removed.
+
+```
+git reset --hard [commitId]
+```
 
 ## Terms
 
